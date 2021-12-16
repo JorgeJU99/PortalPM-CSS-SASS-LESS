@@ -1,0 +1,14 @@
+{
+  "name": "practica-lab",
+  "version": "1.0.0",
+  "description": "practica laboratorio con HTML, CSS y Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Jarrin",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.3"
+  }
+}
