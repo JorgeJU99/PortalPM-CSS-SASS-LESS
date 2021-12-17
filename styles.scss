@@ -1,0 +1,117 @@
+.container-scss {
+  width: 100%;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  background-color: rgba(54, 214, 21, 0.192);
+  padding: 15px;
+  border: rgb(26, 110, 47);
+  border-radius: 30px;
+}
+
+.bg-form-cscc {
+  background-color: rgba(54, 214, 21, 0.192);
+  padding: 15px;
+  border: rgb(26, 110, 47);
+  border-radius: 30px;
+}
+
+.nav-scss {
+  top: 0;
+  width: 100%;
+  .ul-scss {
+    text-align: justify;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    .li-scss {
+      display: inline;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 17px;
+      .a-scss {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px;
+        &:hover {
+          background-color: #111;
+        }
+      }
+      .a-scss-drop {
+        color: #080808;
+        text-decoration: none;
+        padding: 14px;
+        &:hover {
+          background-color: #111;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 20px;
+}
+
+header {
+  width: 100%;
+  border: black;
+}
+
+.wrapper {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.presentacion {
+  padding-top: 200px;
+  padding-bottom: 50px;
+
+  .flex-item2 {
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 0;
+    padding-right: 20px;
+  }
+
+  p {
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.servicios {
+  div {
+    text-align: center;
+  }
+
+  .tipo-servicios {
+    i {
+      font-size: 30px;
+      color: #6495ed;
+    }
+  }
+}
